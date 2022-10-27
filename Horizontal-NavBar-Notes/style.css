@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {margin:0 ; padding:0}
+
+body {
+	background-color: black;
+	margin:auto;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+
+}
+
+header {
+	width: 100%;
+	margin:auto;
+	background-color:white;
+	text-align:center;
+	overflow: auto;
+}
+
+nav {
+	width:100%;
+	background-color:gray;
+	text-align: center;
+}
+
+/* Pseudo classes - A pseudo-class is used to define a special state of an element. */
+/* unvisited link */
+a:link {
+  color: #1e0057;
+}
+/* visited link */
+a:visited {
+  color: #353db6;
+}
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+/* selected link */
+a:active {
+  color: #aeff00;
+}
+
+ul {
+	list-style-type: none; /* removing bullets */
+	background-color:#575757;
+	overflow:auto;
+	height:100%;
+}
+
+li {
+	float:left;
+	/* space elements out evenly within container */
+	width:25%;
+	height:100%;
+}
+
+/* target all anchor tags within list items */
+li a{
+	display: block;
+	padding: 12px 40px;
+	height:100%;
+	
+	text-decoration: none; /* removes undrlines */
+}
+
+h1{
+	font-size: 3em;
+}
+
+li a:hover {
+	background-color: #111;
+	transition: 2s; /* background color fades in after 2 seconds */
+}
+
+
+
+
+
+
+
+
+
