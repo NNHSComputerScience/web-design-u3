@@ -49,7 +49,7 @@ ul {
 	list-style-type: none; /* removing bullets */
 	background-color:#575757;
 	overflow:auto;
-	height:100%;
+	height: 50px;
 }
 
 li {
@@ -64,7 +64,6 @@ li a{
 	display: block;
 	padding: 12px 40px;
 	height:100%;
-	
 	text-decoration: none; /* removes undrlines */
 }
 
@@ -77,6 +76,9 @@ li a:hover {
 	transition: 2s; /* background color fades in after 2 seconds */
 }
 
+p {
+	color:white;
+}
 
 
 
