@@ -1,0 +1,80 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+/* CSS for regular screens */
+
+#main {
+	margin: auto;
+	max-width: 1200px;  /* maximum width to allow the body to stretch */
+}
+
+header {
+	width: 100%;
+	height: 200px;
+	background-color:cyan;
+
+}
+
+/* targets any article with the class three */
+article.three {
+	width:32%;
+	height: 320px;
+	background-color:orange;
+	float:left;
+	/* targets margins in order: top, right, bottom, left */
+	margin: 20px 0 0 1%;
+}
+
+section {
+	overflow:hidden;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color:cyan;
+	clear: both;
+	margin: 20px 0 0 0;
+}
+
+/* Media Queries - CSS for smaller screens (in this case phones) */
+
+/* styling that applies only when the screen width is 480px or less */
+@media screen and (max-width:480px) {
+
+	/* article styling - make the boxes stack rather than float next to each other*/
+	article.three {
+		float:none;
+		width:100%;
+		margin: 20px 0 0 0;
+	}
+
+	/* header styling - change color for smaller screens */
+	header {
+		background-color: darkblue;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
