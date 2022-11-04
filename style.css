@@ -1,0 +1,39 @@
+/*  CSS Background Notes  */
+
+body {
+	padding-top: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#container {
+	width: 90%; 
+	margin: 0 auto; 
+	padding-top: 50%;
+	border: 1px solid #ccc;
+	background-color:darkcyan;
+	/* Gradent generator: https://www.cssmatic.com/ */
+	background: linear-gradient(green, #6666ff);
+	background: repeating-linear-gradient(to bottom right ,green, #6666ff);
+	background: radial-gradient(green, #6666ff 70%);
+	background-repeat: no-repeat;
+	background-image: url(media/clovers.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 172px;
+	background-repeat: repeat;
+	background-image: url(media/louvre.jpg);
+	background-repeat: no-repeat;
+	/* Scales image to fill container; keeps image proportions */
+	background-size: contain;
+	/* Scales image to fill container; modifies image proportions*/
+	background-size: cover;
+}
+
+#container p {
+	margin: 0; 
+	padding: 20px;
+	color: #fff;
+	background-color: rgba(0,0,0,.6)
+}
+
+
