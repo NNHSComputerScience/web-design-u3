@@ -11,13 +11,18 @@ body {
 	margin: 0 auto; 
 	padding-top: 50%;
 	border: 1px solid #ccc;
+	
+	/* background colors */
 	background-color:darkcyan;
 	/* Gradent generator: https://www.cssmatic.com/ */
 	background: linear-gradient(green, #6666ff);
-	background: repeating-linear-gradient(to bottom right ,green, #6666ff);
+	background: linear-gradient(to bottom right, green, #6666ff);
 	background: radial-gradient(green, #6666ff 70%);
-	background-repeat: no-repeat;
+	background: repeating-linear-gradient(green, #6666ff 20%) ;
+	
+	/* background images */
 	background-image: url(media/clovers.jpg);
+	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 350px 172px;
 	background-repeat: repeat;
@@ -33,7 +38,8 @@ body {
 	margin: 0; 
 	padding: 20px;
 	color: #fff;
-	background-color: rgba(0,0,0,.6)
+	background-color: rgba(0,0,0,.5);
+	font-size: 1.1em;
 }
 
 
